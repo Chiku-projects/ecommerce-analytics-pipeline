@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# E-Commerce Real-Time Analytics & Recommendations Pipeline
 
 End-to-end data engineering pipeline for e-commerce analytics and ML-based recommendations.
@@ -51,3 +52,7 @@ Chirag Tiwari
 ## 📄 License
 
 MIT License
+=======
+# ecommerce-analytics-pipeline
+Real-time analytics pipeline
+>>>>>>> 5b60f60a473d7a7785e65fe07fc15e33285c8b89

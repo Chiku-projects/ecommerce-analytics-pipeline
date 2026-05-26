@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿# E-Commerce Real-Time Analytics & Recommendations Pipeline
+# E-Commerce Real-Time Analytics & Recommendations Pipeline
 
 End-to-end data engineering pipeline for e-commerce analytics and ML-based recommendations.
 
@@ -7,7 +6,7 @@ End-to-end data engineering pipeline for e-commerce analytics and ML-based recom
 
 Events → Kinesis → Lambda → S3 → Spark → Snowflake → dbt → ML → FastAPI → Dashboard
 
-## ✅ Week 1: Data Ingestion (COMPLETE)
+## Data Ingestion (COMPLETE)
 
 - AWS infrastructure setup with IAM
 - S3 buckets for raw/processed data
@@ -27,32 +26,39 @@ Week 1/12 Complete ✅
 
 - AWS (S3, Lambda, Kinesis, CloudWatch)
 - Python 3.11
-- Apache Spark (coming Week 2)
-- Apache Airflow (coming Week 2)
-- Snowflake (coming Week 3)
-- dbt (coming Week 3)
-- ML Models (coming Week 4)
+- Apache Spark (Week 2-3 ✅)
+- Databricks (Week 2-3 ✅)
+- Snowflake (coming Week 4-5)
+- dbt (coming Week 4-5)
+- ML Models (coming Week 6-7)
 
 ## 📅 Timeline
 
-- Week 1-2: AWS Data Ingestion ✅
-- Week 3-4: Spark + Airflow Processing
-- Week 5-6: Snowflake + dbt Warehouse
+- Week 1-2: AWS Data Ingestion ✅ COMPLETE
+- Week 3-4: Spark + Airflow Processing ✅ COMPLETE (Databricks)
+- Week 5-6: Snowflake + dbt Warehouse ⏳ NEXT
 - Week 7-8: ML Models (3 models)
 - Week 9: FastAPI REST API
 - Week 10: Streamlit Dashboard
 - Week 11-12: Production & Optimization
+
+## 📊 Current Status
+
+**Week 2-3 Completion:**
+- ✅ Databricks ETL pipeline deployed
+- ✅ 500 clean events processed
+- ✅ 51 unique users analyzed
+- ✅ 26 unique products analyzed
+- ✅ Delta Lake enabled
+- ✅ Production-ready
 
 ## 👨‍💻 Author
 
 Chirag Tiwari
 - GitHub: [@Chiku-projects](https://github.com/Chiku-projects)
 - Email: ct880717@gmail.com
+- Location: Kolkata, West Bengal
 
 ## 📄 License
 
 MIT License
-=======
-# ecommerce-analytics-pipeline
-Real-time analytics pipeline
->>>>>>> 5b60f60a473d7a7785e65fe07fc15e33285c8b89
